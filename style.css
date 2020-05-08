@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Topbar */
+
+div.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3066E1;
+    color: white;
+    padding: 0.4rem;
+}
+
+div.topbar div.icons {
+    margin-left: 5rem;
+    color: white;
+}
+
+div.topbar div.icons i {
+    margin: 0 0.2rem;
+}
+
+div.topbar div.button {
+    margin-right: 5rem;
+}
+
+div.topbar div.button a {
+    margin: 0 0.1rem;
+    padding: 0.1rem;
+    background-color: white;
+    font-size: small;
+}
+
+/* navbar */
+
+nav.navbar {
+    background-color: white;
+    padding: 0.5rem;
+    position: fixed sticky;
+}
+nav.navbar div.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+nav.navbar div.navbar ul {
+    display: flex;
+    margin: auto;
+    margin-right: 5rem;
+}
+nav.navbar div.navbar ul a {
+    margin: 0 0.7rem;
+    padding: 0.3rem;
+}
+nav.navbar div.navbar ul a:hover {
+    background-color: #3066E1;
+    color: white;
+    border-radius: 40%;
+
+}
+nav.navbar div.navbar img {
+    margin-left: 5rem;
+    height: 4rem;
+}
+
+/* Showcase */
+
+/* showcasebar */
+div.showcasebar {
+    text-align: center;
+    margin: 0.7rem 5rem;
+    background-color: #3066E1;
+    color: white;
+    padding: 0.5rem;
+}
+
+/* Introduction */
+
+div.intro {
+    margin: 4rem 5rem;
+    background-color: #F9F9F9;
+}
+
+div.intro h1 {
+    text-align: center;
+}
+
+div.intro img{
+    margin: 0.5rem 35.5rem;
+    padding: 0.5rem;
+}
+
+div.intro p {
+    margin: 2rem 5rem;
+    font-size: 1.2rem;
+}
+/* Visual Bar */
+
+div.vbar {
+    background-color: #3066E1;
+    display: flex;
+    justify-content: space-around;
+    padding: 6rem;
+    color: white;
+}
+div.vbar div {
+    text-align: center;
+    margin: 0 2rem;
+}
+div.vbar img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+div.vbar h1 {
+    font-size: 3.5rem; 
+} 
+/* VBAR */
+
+div.doing {
+ padding: 5rem;
+ background-color: #F9F9F9;
+ color: #3066E1;
+}
+div.doing  h1{
+text-align: center;
+}
+
+div.doing img.logo {
+    margin: 0.5rem 35.5rem;
+    padding: 0.5rem;
+}
+
+div.doing div.bars div.row1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.doing div.bars div.row2 {
+    display: flex;
+    justify-content: space-around;
+}
+div.doing div.bars div.row1 div {
+   margin: 1rem;
+    padding: 2rem 7rem;
+    background-color: white; 
+    box-shadow: 1rem 1rem rgb(224, 224, 224);
+    width: 8rem;
+}
+div.doing div.bars div.row2 div {
+    padding: 2rem 7rem;
+    margin: 1rem;
+    background-color: white; 
+    box-shadow: 1rem 1rem rgb(224, 224, 224);
+    width: 8rem;
+}
+div.doing div.bars p {
+ text-align: center;
+
+}
+/* Dbar */
+
+div.Dbar {
+    display: flex;
+}
+
+div.Dbar div.row1 {
+    display: flex;
+    margin: 1rem;
+}
+div.Dbar div.row1 div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 7rem;
+    background-color: #F9F9F9;
+    margin: 0 1rem;
+    border:#8888 solid;
+}
+
+div.Dbar div.row2 {
+    display: flex;
+    margin: 1rem;
+}
+div.Dbar div.row2 div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 7rem;
+    background-color: #F9F9F9;
+    margin: 0 1rem;
+    border:#8888 solid;
+}
+div.Dbar h2 {
+    color: #3066E1;
+    margin: 2rem;
+}
+div.Dbar div.D2 p {
+    margin: 2rem;
+}
+
+div.Dbar img {
+    margin: 0 2rem;
+}
+div.Dbar div.D1 p {
+    margin: auto;
+}
+
+/* Image gallery */
+div.imgal {
+    margin: 4rem 5rem;
+}
+div.imgal h1 {
+    text-align: center;
+}
+div.imgal img.logo {
+    margin: 0.5rem 35.5rem;
+    padding: 0.5rem;
+
+}
+div.imgal div.imgbox {
+    display: flex;
+    justify-content: center;
+}
+
+div.imgal div.imgbox img {
+    width: 15rem;
+    height: 9rem;
+}
+/* contact */
+
+div.contact {
+    display: flex;
+    background-color: #2A2A2A;
+    padding: 4rem;
+}
+div.contact h4 {
+    margin: 1rem;
+    color: white;
+    font-size: x-large;
+}
+
+div.contact div {
+    margin: 2rem 3rem;
+}
+
+div.contact p {
+ color: grey;
+}
+
+div.contact i {
+    color: white;
+    background-color: #3066E1;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+footer {
+    background-color: #3066E1;
+    color: white;
+    padding: 1rem 5rem;
+    font-size: small;
+}
+
+@media(max-width : 600px) {
+    div.topbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    div.navbar {
+        flex-direction: column;
+
+    }
+    div.vbar{
+        flex-direction: column;
+        padding: 5rem;
+
+    }
+    div.Dbar {
+        flex-direction: column;
+    }
+    div.Dbar div {
+        flex-direction: column;
+
+    }
+    div.doing div.bars div {
+        flex-direction: column;
+
+    }
+    div.imgal div {
+        flex-direction: column;
+
+    }
+    div.contact {
+        flex-direction: column;
+
+    }
+    header img {
+        width: 500px;
+    }
+}
